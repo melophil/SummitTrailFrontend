@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 
 // Replace 'summitwebsite' with your actual repository name if different
 export default defineConfig({
-  base: '/Summit-Trail-Website/',
+ base: '/SummitTrailFrontend/', 
   plugins: [
     react({
       babel: {
