@@ -1,0 +1,106 @@
+/* ============================
+   Animation
+============================ */
+.animate-section {
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================
+   WRAPPER
+============================ */
+.camping-section {
+  padding: 50px 8%;
+  margin-top: 120px;
+}
+
+/* ============================
+   PAGE TITLE
+============================ */
+.camp-title {
+  font-size: 2.4rem;
+  text-align: center;
+  font-weight: 700;
+  color: #0d2a4d;
+  letter-spacing: 1px;
+}
+
+.underline {
+  width: 150px;
+  height: 3px;
+  background: #b7d2ff;
+  margin: 10px auto 30px auto;
+  border-radius: 4px;
+}
+
+/* ============================
+   CARD STYLE
+============================ */
+.camp-card {
+  display: flex;
+  gap: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  align-items: center;
+}
+
+/* LEFT TEXT COLUMN */
+.camp-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.camp-left p {
+  color: #444;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.camp-question {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #0d2a4d;
+}
+
+/* RIGHT IMAGE */
+.camp-right {
+  flex: 1;
+}
+
+.camp-right img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  height: 330px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* ============================
+   RESPONSIVE
+============================ */
+@media (max-width: 900px) {
+  .camp-card {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .camp-right img {
+    height: 260px;
+  }
+}

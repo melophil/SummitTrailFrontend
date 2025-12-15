@@ -15,6 +15,7 @@ import AboutUs from "./components/sections/AboutUs";
 import SquadSection from "./components/sections/SquadSection";
 import CareersSection from "./components/sections/CareersSection";
 import FaqTipsSection from "./components/sections/FaqTipsSection";
+import CampingSection from "./components/sections/CampingSection";
 export default function App() {
   const [splashDone, setSplashDone] = useState(false);
 
@@ -44,6 +45,7 @@ export default function App() {
               <Route path="/squad" element={<SquadSection />} />
               <Route path="/careers" element={<CareersSection />} />
               <Route path="/faq" element={<FaqTipsSection />} />
+              <Route path="/camping" element={<CampingSection />} />
 
             </Routes>
           </main>

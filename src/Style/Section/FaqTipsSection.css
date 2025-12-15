@@ -159,6 +159,7 @@
 
 
 
+
 /* ============================= RESPONSIVE ============================= */
 @media (max-width: 768px) {
   .faq-card {
@@ -178,3 +179,53 @@
     width: 100%;
   }
 }
+/* ===================================================================
+   GLOBAL ANIMATIONS
+   =================================================================== */
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* 
+  ✨ Animation class applied to all FAQ/Tips sections.
+  Each fades upward smoothly when loaded.
+*/
+.animate-section {
+  opacity: 0;
+  animation: fadeInUp 0.9s ease forwards;
+}
+
+/* 
+   ✨ Stagger effect: each card animates slightly later.
+   The nth-child values can be adjusted as needed.
+*/
+.animate-section:nth-child(1) { animation-delay: 0.1s; }
+.animate-section:nth-child(2) { animation-delay: 0.25s; }
+.animate-section:nth-child(3) { animation-delay: 0.40s; }
+.animate-section:nth-child(4) { animation-delay: 0.55s; }
+.animate-section:nth-child(5) { animation-delay: 0.70s; }
+.animate-section:nth-child(6) { animation-delay: 0.85s; }
+
+/* Keeps hover animation */
+.tips-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 22px 48px rgba(0, 0, 0, 0.18);
+}
+
