@@ -6,7 +6,7 @@ export default function PopulartrekSection() {
   const [tours, setTours] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/treks")
+    fetch("https://summittrail-backend.onrender.com/api/treks")
       .then((res) => res.json())
       .then((data) => {
         // Only take top 4 treks OR featured treks
