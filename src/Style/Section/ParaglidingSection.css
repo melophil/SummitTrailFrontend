@@ -1,0 +1,151 @@
+/* ============================
+   PAGE WRAPPER
+============================ */
+.para-section {
+  padding: 60px 8%;
+  margin-top: 120px;
+}
+
+/* ============================
+   TITLE
+============================ */
+.para-title {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #0d2a4d;
+}
+
+.underline {
+  width: 160px;
+  height: 3px;
+  background: #bcd6ff;
+  margin: 12px auto 35px auto;
+  border-radius: 4px;
+}
+
+/* ============================
+   CONTENT CARD
+============================ */
+.para-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 35px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  margin-bottom: 40px;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+.para-icon-box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.para-icon-box img {
+  width: 120px;
+  opacity: 0.9;
+}
+
+/* ============================
+   FLY LOCATIONS LIST
+============================ */
+.para-subtitle {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #0d2a4d;
+  font-weight: 700;
+}
+
+.para-list-card {
+  background: #ffffff;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  margin-bottom: 45px;
+}
+
+.para-list-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.para-list-card li {
+  margin: 14px 0;
+  font-size: 1.12rem;
+  line-height: 1.6;
+}
+
+/* ============================
+   CTA BOX
+============================ */
+.para-cta {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.para-cta h3 {
+  font-size: 2rem;
+  color: #0d2a4d;
+  margin-bottom: 10px;
+}
+
+.para-cta p {
+  font-size: 1.15rem;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+/* CTA BUTTON */
+.para-btn {
+  background: #0d2a4d;
+  padding: 12px 32px;
+  color: #ffffff;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.para-btn:hover {
+  background: #154c85;
+  transform: translateY(-3px);
+}
+
+/* ============================
+   ANIMATION
+============================ */
+.animate-section {
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================
+   RESPONSIVE DESIGN
+============================ */
+@media (max-width: 768px) {
+  .para-title {
+    font-size: 1.9rem;
+  }
+
+  .para-card,
+  .para-list-card,
+  .para-cta {
+    padding: 25px;
+  }
+}
