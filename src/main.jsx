@@ -7,7 +7,8 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* 👇 Add BrowserRouter with basename that matches your repo name */}
-    <BrowserRouter basename="/Summit-Trail-Website/">
+    <BrowserRouter basename="/SummitTrailFrontend/">
+
       <App />
     </BrowserRouter>
   </StrictMode>
