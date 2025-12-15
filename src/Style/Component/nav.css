@@ -170,3 +170,35 @@
     justify-content: center;
   }
 }
+.nav-home .logo,
+.nav-home .nav-btn {
+  color: #ffffff !important;
+}
+
+.nav-home .nav-btn.active {
+  color: #bbd9ff !important;
+}
+.nav-light {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.nav-light .logo,
+.nav-light .nav-btn {
+  color: #1a1a1a !important;
+}
+
+.nav-light .nav-btn.active {
+  color: #2a7bf6 !important;
+}
+
+.nav-light .nav-btn:hover {
+  color: #2a7bf6 !important;
+}
+
+.nav-light .enquire-btn {
+  background: #2a7bf6 !important;
+  color: #ffffff !important;
+}
+

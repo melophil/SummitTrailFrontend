@@ -12,7 +12,7 @@ export default function Sidebar() {
     { name: "Hikes", path: "/hikes" },
     { name: "Treks", path: "/treks" },
     { name: "Expeditions", path: "/expeditions" },
-    { name: "About Us", path: "/about" },
+    { name: "About Us", path: "/about-us" },
     { name: "Squad on the Summit", path: "/squad" },
     { name: "FAQ’s , Tips & Tricks", path: "/faq" },
     { name: "Careers at Summit Trails", path: "/careers" },

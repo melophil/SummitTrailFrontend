@@ -1,0 +1,180 @@
+/* PAGE BACKGROUND */
+.faqtips-page {
+  background: linear-gradient(to bottom, #f7f6f4, #f3f2ef);
+  padding: 60px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+
+
+/* ============================= FAQ MAIN CARD ============================= */
+.faq-card {
+  background: linear-gradient(135deg, #0f3b63, #134a7a);
+  color: white;
+  padding: 50px;
+  max-width: 1100px;
+  margin: 0 auto 60px;
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.faq-title {
+  font-size: 44px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.faq-item {
+  margin-bottom: 25px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-item h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.faq-item p {
+  font-size: 16px;
+  line-height: 1.7rem;
+}
+
+
+
+/* ============================= SECTION HEADERS ============================= */
+.tips-section {
+  max-width: 900px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.tips-title {
+  font-size: 38px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #1f1f1f;
+}
+
+.tips-intro {
+  font-size: 18px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+
+/* ============================= WHITE CARDS ============================= */
+.tips-card {
+  background: white;
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid #2a7bf6;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.tips-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+.tips-card h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.tips-card h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tips-card p,
+.tips-card li {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.75rem;
+}
+
+
+
+/* ============================= TWO-COLUMN LIST ============================= */
+.two-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 8px;
+}
+
+.two-column li {
+  width: calc(50% - 12px);
+}
+
+
+
+/* ============================= SAFETY NOTES ============================= */
+.safe-note {
+  margin-top: 18px;
+  font-weight: 700;
+  color: #1c6bda;
+  font-size: 17px;
+}
+
+.bottom-warning {
+  margin-top: 20px;
+  font-weight: 700;
+  color: #333;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+}
+
+
+
+/* ============================= SUBTITLES ============================= */
+.subtitle {
+  margin-top: -8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+
+
+
+/* ============================= RESPONSIVE ============================= */
+@media (max-width: 768px) {
+  .faq-card {
+    padding: 28px;
+  }
+
+  .tips-card {
+    padding: 28px;
+  }
+
+  .tips-title,
+  .faq-title {
+    font-size: 30px;
+  }
+
+  .two-column li {
+    width: 100%;
+  }
+}

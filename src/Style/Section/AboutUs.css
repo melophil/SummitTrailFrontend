@@ -1,0 +1,96 @@
+/* MAIN PAGE WRAPPER */
+.aboutus-page {
+  background: #f7f6f4; /* Light snow-beige */
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+/* HEADER SECTION */
+.aboutus-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.aboutus-header h1 {
+  font-size: 42px;
+  font-weight: 800;
+  color: #1d1d1d;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* GRID LAYOUT */
+.aboutus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* CARD STYLE */
+.aboutus-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease;
+}
+
+.aboutus-card:hover {
+  transform: translateY(-6px);
+}
+
+.aboutus-card h2 {
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #2a2a2a;
+}
+
+.aboutus-card p {
+  color: #444;
+  line-height: 1.7rem;
+  margin: 12px 0;
+}
+
+/* FOUNDER PHOTOS */
+.founder-photos {
+  margin-top: 15px;
+}
+
+.founder-photos img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.quote {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #0066cc;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* FLAG IMAGE */
+.flag-photo {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .aboutus-header h1 {
+    font-size: 32px;
+  }
+  
+  .aboutus-card {
+    padding: 22px;
+  }
+}

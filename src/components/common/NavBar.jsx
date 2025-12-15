@@ -5,7 +5,9 @@ import "../../Style/Component/nav.css";
 
 export default function NavBar() {
   const [scrolled, setScrolled] = useState(false);
-  const location = useLocation(); // to highlight the active link
+  const location = useLocation();
+
+  const isHome = location.pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -15,12 +17,14 @@ export default function NavBar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
   const handleScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+  
 
   return (
-    <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
+    <header className={`navbar ${scrolled ? "scrolled" : ""} ${isHome ? "nav-home" : "nav-light"}`}>
       <div className="navbar-container">
         <div className="navbar-left">
           <div className="logo">
