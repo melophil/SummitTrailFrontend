@@ -17,6 +17,9 @@ import CareersSection from "./components/sections/CareersSection";
 import FaqTipsSection from "./components/sections/FaqTipsSection";
 import CampingSection from "./components/sections/CampingSection";
 import ParaglidingSection from "./components/sections/ParaglidingSection";
+import RockClimbingSection from "./components/sections/RockClimbingSection";
+import ValleyPassSection from "./components/sections/ValleyPassSection";
+
 export default function App() {
   const [splashDone, setSplashDone] = useState(false);
 
@@ -48,6 +51,9 @@ export default function App() {
               <Route path="/faq" element={<FaqTipsSection />} />
               <Route path="/camping" element={<CampingSection />} />
               <Route path="/paragliding" element={<ParaglidingSection />} />
+              <Route path="/rock" element={<RockClimbingSection />} />
+              <Route path="/valley" element={<ValleyPassSection />} />
+
 
 
             </Routes>

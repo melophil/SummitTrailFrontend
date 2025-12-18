@@ -84,7 +84,8 @@ export default function Hero() {
               <Link to="/hikes" className="dropdown-item">Hike</Link>
               <Link to="/expedition" className="dropdown-item">Expedition</Link>
               <Link to="/paragliding" className="dropdown-item">Paragliding</Link>
-              <Link to="/rock-climbing" className="dropdown-item">Rock Climbing</Link>
+              <Link to="/rock" className="dropdown-item">Rock Climbing</Link>
+              <Link to="/valley" className="dropdown-item">Valley Pass</Link>
             </div>
           </div>
         </div>
