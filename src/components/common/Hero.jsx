@@ -82,7 +82,7 @@ export default function Hero() {
             <div className={`dropdown-menu ${showMenu ? "show" : ""}`}>
               <Link to="/treks" className="dropdown-item">Trek</Link>
               <Link to="/hikes" className="dropdown-item">Hike</Link>
-              <Link to="/expedition" className="dropdown-item">Expedition</Link>
+              <Link to="/expeditions" className="dropdown-item">Expedition</Link>
               <Link to="/paragliding" className="dropdown-item">Paragliding</Link>
               <Link to="/rock" className="dropdown-item">Rock Climbing</Link>
               <Link to="/valley" className="dropdown-item">Valley Pass</Link>
